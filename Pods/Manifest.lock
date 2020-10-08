@@ -1,0 +1,41 @@
+PODS:
+  - FBSDKCoreKit (7.1.1):
+    - FBSDKCoreKit/Basics (= 7.1.1)
+    - FBSDKCoreKit/Core (= 7.1.1)
+  - FBSDKCoreKit/Basics (7.1.1)
+  - FBSDKCoreKit/Core (7.1.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (7.1.1):
+    - FBSDKLoginKit/Login (= 7.1.1)
+  - FBSDKLoginKit/Login (7.1.1):
+    - FBSDKCoreKit (~> 7.1.1)
+  - JGProgressHUD (2.1)
+  - Kingfisher (5.14.0):
+    - Kingfisher/Core (= 5.14.0)
+  - Kingfisher/Core (5.14.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - FBSDKLoginKit
+  - JGProgressHUD
+  - Kingfisher
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - JGProgressHUD
+    - Kingfisher
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  FBSDKCoreKit: b46507dc8b8cefed31d644e74d7cc30e2a715ef8
+  FBSDKLoginKit: 1a61d79e2b25e2fc0d03dccab1e34b38bbdf2546
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  Kingfisher: 7b64389a43139c903ec434788344c288217c792d
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: fbedf27b30f29be21542422196894e972f6f0677
+
+COCOAPODS: 1.9.1
